@@ -1,6 +1,6 @@
-package com.pollaktamas.nestedclass.memberinnerclass;
+package com.pollaktamas.nestedclass.memberinner;
 
-public class MemberInnerClassMain {
+public class Main {
     public static void main(String[] args) {
         Outer hello = new Outer("Hello!");
         hello.initInner();

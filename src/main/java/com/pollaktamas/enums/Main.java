@@ -1,6 +1,6 @@
 package com.pollaktamas.enums;
 
-public class EnumMain {
+public class Main {
     public static void main(String[] args) {
         Season fall = Season.FALL;
         System.out.println(fall);
