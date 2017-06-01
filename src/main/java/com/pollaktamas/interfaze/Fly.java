@@ -12,4 +12,6 @@ public interface Fly {
     public static double calculateSpeed(float distance, double time) {
         return distance / time;
     }
+
+    public abstract void takeOff();
 }

@@ -8,4 +8,9 @@ public class Eagle implements Fly {
     public void land() {
         System.out.println("Eagle is diving fast");
     }
+
+    @Override
+    public void takeOff() {
+        System.out.println("TakeOff.");
+    }
 }
