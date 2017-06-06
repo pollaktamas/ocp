@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class ComparatorSorter {
+public class SingleFieldComparator {
     public static void main(String[] args) {
         Comparator<Duck> byWeight = new Comparator<Duck>() {
             public int compare(Duck d1, Duck d2) {
