@@ -1,11 +1,13 @@
 package com.pollaktamas.nestedclass.staticnested;
 
+import com.pollaktamas.nestedclass.staticnested.Enclosing.Nested;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(Enclosing.Nested.width);
+        System.out.println(Nested.width);
 
-        Enclosing.Nested nested = new Enclosing.Nested();
+        Nested nested = new Nested();
         nested.printPrice();
     }
 }
