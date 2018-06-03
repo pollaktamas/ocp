@@ -1,4 +1,4 @@
-package com.pollaktamas.nestedclass.localinner;
+package com.pollaktamas.advancedclassdesign.nestedclass.localinner;
 
 public class Outer {
     private int length = 5;

@@ -1,4 +1,4 @@
-package com.pollaktamas.nestedclass.memberinner;
+package com.pollaktamas.advancedclassdesign.nestedclass.memberinner;
 
 public class Outer {
     private String greeting;

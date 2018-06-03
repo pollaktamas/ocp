@@ -1,4 +1,4 @@
-package com.pollaktamas.nestedclass.memberinner;
+package com.pollaktamas.advancedclassdesign.nestedclass.memberinner;
 
 public class A {
     private int num = 5;

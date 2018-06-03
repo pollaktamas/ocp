@@ -1,4 +1,4 @@
-package com.pollaktamas.enums;
+package com.pollaktamas.advancedclassdesign.enums;
 
 public enum Planet {
     MERCURY(3.302e+23, 2.439e6),

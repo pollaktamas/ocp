@@ -1,4 +1,4 @@
-package com.pollaktamas.nestedclass.staticnested;
+package com.pollaktamas.advancedclassdesign.nestedclass.staticnested;
 
 public class Enclosing {
     static class Nested {

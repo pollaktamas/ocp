@@ -1,4 +1,4 @@
-package com.pollaktamas.enums;
+package com.pollaktamas.advancedclassdesign.enums;
 
 public class Main {
     public static void main(String[] args) {

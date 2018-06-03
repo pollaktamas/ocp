@@ -1,6 +1,6 @@
-package com.pollaktamas.nestedclass.staticnested;
+package com.pollaktamas.advancedclassdesign.nestedclass.staticnested;
 
-import com.pollaktamas.nestedclass.staticnested.Enclosing.Nested;
+import com.pollaktamas.advancedclassdesign.nestedclass.staticnested.Enclosing.Nested;
 
 public class Main {
 

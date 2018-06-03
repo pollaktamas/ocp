@@ -1,4 +1,4 @@
-package com.pollaktamas.nestedclass.anonymousinner;
+package com.pollaktamas.advancedclassdesign.nestedclass.anonymousinner;
 
 public class AnonymousInner {
 

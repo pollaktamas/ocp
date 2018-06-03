@@ -1,4 +1,4 @@
-package com.pollaktamas.enums;
+package com.pollaktamas.advancedclassdesign.enums;
 
 public enum Season {
 
