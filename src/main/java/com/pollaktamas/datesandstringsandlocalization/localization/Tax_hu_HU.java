@@ -5,6 +5,8 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 public class Tax_hu_HU extends ListResourceBundle {
+
+    @Override
     protected Object[][] getContents() {
         return new Object[][]{{"tax", new Integer(100)}};
     }
@@ -13,5 +15,7 @@ public class Tax_hu_HU extends ListResourceBundle {
         ResourceBundle rb = ResourceBundle.getBundle(
                 "com.pollaktamas.datesandstringsandlocalization.localization.Tax", new Locale("hu", "HU"));
         System.out.println(rb.getObject("tax"));
+
+        System.out.println(new Locale("VA", "hh"));
     }
 }
