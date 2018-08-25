@@ -35,15 +35,6 @@ public class Main {
         }
     }
 
-    public static class MyAutoCloseable implements AutoCloseable {
-        @Override
-        public void close() throws FileNotFoundException {
-        }
-    }
-
-    public void parseData() throws SQLException, IOException {
-    }
-
     public void multiCatch() throws SQLException, IOException {
         try {
             parseData();
@@ -62,9 +53,18 @@ public class Main {
         }
     }
 
+    public void parseData() throws SQLException, IOException {
+    }
+
     public void tryWithMyAutoCloseable() throws FileNotFoundException {
         try (MyAutoCloseable myAutoCloseable = new MyAutoCloseable()) {
 
+        }
+    }
+
+    public static class MyAutoCloseable implements AutoCloseable {
+        @Override
+        public void close() throws FileNotFoundException {
         }
     }
 }
